@@ -1,0 +1,123 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2020 0.0. Build: 4708
+                Computer name:   DESKTOP-OE63I79
+                User name:   David Cristancho
+                Processors:   Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+                Memory:   12152 MB / 6763 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19043)
+                CAD version:   SOLIDWORKS 2020 SP0.0
+                CPU speed:   2592 MHz
+
+    General Info
+                Model:   temperatura simular.SLDPRT
+                Project name:   Project(1)
+                Project path:   C:\Users\Usuario ASUS\OneDrive - Universidad de Cundinamarca\Trabajo de grado\Diseño 2.0\simu\2
+                Units system:   SI (m-kg-s)
+                Analysis type:   Internal
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   On
+                Heat conduction in solids only:   Off
+                Radiation:   Off
+                Radiation in gases:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   -9.81 m/s^2
+                Z component:   0 m/s^2
+                Default outer wall condition:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.501 m
+                X max:   0.501 m
+                Y min:   -0.251 m
+                Y max:   0.251 m
+                Z min:   -5.000e-04 m
+                Z max:   0.500 m
+                X size:   1.002 m
+                Y size:   0.501 m
+                Z size:   0.501 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   16
+                Number of cells in Y:   8
+                Number of cells in Z:   8
+
+        Number Of Cells
+                Cells:   6036
+                Fluid cells:   2552
+                Solid cells:   3484
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   1
+
+    Goals
+
+        Global Goals
+
+            GG Minimum Temperature (Fluid) 1
+                Type:   Global Goal
+                Goal type:   Temperature (Fluid)
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Average Temperature (Fluid) 2
+                Type:   Global Goal
+                Goal type:   Temperature (Fluid)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Temperature (Fluid) 3
+                Type:   Global Goal
+                Goal type:   Temperature (Fluid)
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Bulk Av Temperature (Fluid) 4
+                Type:   Global Goal
+                Goal type:   Temperature (Fluid)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                               	Unit   	Value   	Progress   	Criteria         	Delta         	Use in convergence 
+                GG Minimum Temperature (Fluid) 1   	°C     	21.58   	28         	0.0644820856     	0.229163479   	On                 
+                GG Average Temperature (Fluid) 2   	°C     	21.60   	28         	0.064814603      	0.2304959     	On                 
+                GG Maximum Temperature (Fluid) 3   	°C     	50.00   	100        	3.23149999e-06   	0             	On                 
+                GG Bulk Av Temperature (Fluid) 4   	°C     	21.60   	28         	0.0648145713     	0.230495933   	On                 
+
+    General Info
+                Run at:   DESKTOP-OE63I79
+                Number of cores:   4
+                Iterations:   160
+                CPU time:   0 s
+
+        Log
+                Mesh generation started	0:   12:08:59 , Jul 04
+                Mesh generation normally finished	0:   12:09:01 , Jul 04
+                Preparing data for calculation	0:   12:09:02 , Jul 04
+                Calculation started	0:   12:09:03 , Jul 04
+                Calculation has converged since the following criteria are satisfied:	160:   12:09:32 , Jul 04
+                    Max. travel is reached	160:   
+                Calculation finished	160:   12:09:32 , Jul 04
