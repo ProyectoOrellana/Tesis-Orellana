@@ -1,0 +1,95 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2020 0.0. Build: 4708
+                Computer name:   DESKTOP-OE63I79
+                User name:   David Cristancho
+                Processors:   Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+                Memory:   12152 MB / 3722 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19043)
+                CAD version:   SOLIDWORKS 2020 SP0.0
+                CPU speed:   2592 MHz
+
+    General Info
+                Model:   Modelo_para_simular - 1.SLDPRT
+                Project name:   VIENTOS
+                Project path:   C:\Users\Usuario ASUS\OneDrive - Universidad de Cundinamarca\Trabajo de grado\Diseño 2.0\simu\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   Internal
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   -9.81 m/s^2
+                Z component:   0 m/s^2
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.494 m
+                X max:   0.494 m
+                Y min:   -0.243 m
+                Y max:   0.243 m
+                Z min:   0.007 m
+                Z max:   0.493 m
+                X size:   0.988 m
+                Y size:   0.487 m
+                Z size:   0.487 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   28
+                Number of cells in Y:   14
+                Number of cells in Z:   14
+
+        Number Of Cells
+                Cells:   9019
+                Fluid cells:   9019
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   2
+
+    Goals
+
+        Surface Goals
+
+            SG Volume Flow Rate 1
+                Type:   Surface Goal
+                Goal type:   Volume Flow Rate
+                Faces:   Face<2>, Face<1>
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                    	Unit    	Value     	Progress   	Criteria         	Delta            	Use in convergence 
+                SG Volume Flow Rate 1   	m^3/s   	-0.0200   	100        	1.64980665e-05   	4.66704526e-07   	On                 
+
+    General Info
+                Run at:   DESKTOP-OE63I79
+                Number of cores:   4
+                Iterations:   42
+                CPU time:   0 s
+
+        Log
+                Mesh generation started	0:   15:58:17 , Jul 27
+                Mesh generation normally finished	0:   15:58:18 , Jul 27
+                Preparing data for calculation	0:   15:58:19 , Jul 27
+                Calculation started	0:   15:58:24 , Jul 27
+                Calculation has converged since the following criteria are satisfied:	42:   15:58:35 , Jul 27
+                    Goals are converged	42:   
+                Calculation finished	42:   15:58:36 , Jul 27

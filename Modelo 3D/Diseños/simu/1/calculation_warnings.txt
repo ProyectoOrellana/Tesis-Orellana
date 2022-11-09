@@ -1,0 +1,7 @@
+2022-Jul-27 15:58:35
+Computer name:	DESKTOP-OE63I79
+Number of cores used in calculation:	4
+Configuration name:	Default
+Project name:	VIENTOS
+
+Warnings on last iteration: 
